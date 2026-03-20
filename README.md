@@ -5,9 +5,11 @@
 ## Содержание
 
 Материалы к роликам: 
-- [1. Нормалды! Нормалды или как приручить хаос в данных](https://www.youtube.com/watch?v=p3H5N_KRbuY) - [01-normal_lognormal.ipynb](01-normal_lognormal.ipynb)
 
-Я ПОБЕДИЛ ТЕЛЕПОРТ В GPS:
+2025-11-24 НОРМАЛДЫ!
+- [1. Нормалды или как приручить хаос в данных](https://www.youtube.com/watch?v=p3H5N_KRbuY) - [01-normal_lognormal.ipynb](01-normal_lognormal.ipynb)
+
+2026-03-21 Я ПОБЕДИЛ ТЕЛЕПОРТ В GPS:
 - [2.1 Геоданные: основа](https://www.youtube.com/watch?v=vHArjNhj4uo) - [02.1-geodata-visual.ipynb](02.1-geodata-visual.ipynb)
 - [2.2 Поиск аномалий](https://www.youtube.com/watch?v=mUnBisxObCg) - [02.2-geodata-teleports.ipynb](02.2-geodata-teleports.ipynb)
 - [2.3 Очистка и восстановление трека](https://www.youtube.com/watch?v=kMvVSYs7Dfc) - [02.3-geodata-cleanup.ipynb](02.3-geodata-cleanup.ipynb)
