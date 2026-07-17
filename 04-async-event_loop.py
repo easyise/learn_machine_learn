@@ -1,11 +1,13 @@
 import asyncio
 
-async def worker():
-    print("Старт")
+async def worker(name):
+    print(f"Старт {name}")
 
     await asyncio.sleep(2)
 
-    print("Конец")
+    print(f"Конец {name}")
 
 
-asyncio.run(worker())
+asyncio.run(worker("Worker 1"))
+
+
