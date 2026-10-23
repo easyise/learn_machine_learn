@@ -9,8 +9,15 @@ from mcp.server.mcpserver import MCPServer
 SERVER_NAME = "BrainBox"
 # SERVER_NAME = "my gorgeous notebook"
 
-mcp = MCPServer(f"{SERVER_NAME} Monitor",
-                instructions=f"Monitor RAM and NVIDIA GPU memory on {SERVER_NAME}.",)
+mcp = MCPServer(
+    f"{SERVER_NAME} Monitor",
+    instructions=(
+        f"Read-only monitoring of {SERVER_NAME}. "
+        "Use hello to get a greeting. "
+        "Use get_memory_info to check system RAM or NVIDIA GPU VRAM. "
+        "For all GPUs, set gpu_id=-1."
+    ),
+)
 
 
 # ---------- MCP TOOLS ----------
