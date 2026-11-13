@@ -3,4 +3,7 @@ __pycache__
 /cache
 .ipynb_checkpoints
 .env
+.vs_code/
 temp_data
+qdrant_data
+/mcp_server/mcp_rag.log
